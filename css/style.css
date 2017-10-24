@@ -1,0 +1,481 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+      font-family: 'Cuprum','PT Sans', Arial, Helvetica, sans-serif;    
+  }
+  
+  .clearfix::after { 
+    content: '';
+    clear: both; 
+    display: table;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: calc(24px/24px);
+    font-style: normal;
+    color: #FFFEDC;
+    text-transform: uppercase;
+  } 
+
+ .form-group ,
+ .form-group input,
+ .form .btn {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: calc(18px/17px);
+    font-style: normal;
+    color: #FFFEDC;  
+  } 
+  
+   .menu p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(23px/16px);
+    font-style: italic;
+    color: #F1303C;
+  }
+  
+  .address p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: calc(24px/14px);
+    font-style: normal;
+    color: #343950;
+  }
+
+  .address a {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: calc(18px/21px);
+    font-style: normal;
+    color: #F1303C;
+  }
+
+  .login,
+  .registration {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: calc(18px/21px);
+    font-style: normal;
+    color: #000001;
+  }
+
+  .list .item a {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: calc(17px/17px);
+    font-style: normal;
+    color: #FFFEDC;
+  }
+
+  .promo-item h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: calc(30px/24px);
+    font-style: normal;
+    color: #FFFEDC;
+  }
+
+  .promo-item .btn-gray,
+  .slider .btn-catalog,
+  .all-products,
+  .all-brands {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: calc(18px/14px);
+    font-style: normal;
+    color: #FFFEDC;
+    text-transform: uppercase;
+  }
+
+ .subtitle span {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: calc(30px/30px);
+  font-style: normal;
+  color: #FFFEDC;
+  text-transform: uppercase;
+}
+
+.product span {
+  font-family: 'PT Sans';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: calc(20px/18px);
+  font-style: normal;
+  color: #000001;
+}
+
+.product .price {
+  font-family: 'PT Sans';
+  font-size: 17px;
+  font-weight: 700;
+  line-height: calc(18px/17px);
+  font-style: normal;
+  color: #AD9F91;
+}
+
+.product .btn-red {
+  font-family: 'PT Sans';
+  font-size: 17px;
+  font-weight: 700;
+  line-height: calc(18px/17px);
+  font-style: normal;
+  color: #FFFEDC;
+  text-transform: uppercase;
+}
+
+.hidden-block .btn-green {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: calc(14px/14px);
+  font-style: normal;
+  color: #FFFEDC;
+  text-transform: uppercase;
+}
+
+.hidden-block .btn-white {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: calc(14px/14px);
+  font-style: normal;
+  color: #343950;
+  text-transform: uppercase;
+}
+
+.servise h3 {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: calc(44px/21px);
+  font-style: normal;
+  color: #000001;
+  text-transform: uppercase;
+}
+
+.servise p {
+  font-family: 'PT Sans';
+  font-size: 9px;
+  font-weight: 400;
+  line-height: calc(12px/9px);
+  font-style: normal;
+  color: #000001;  
+}
+
+.slogan-1 h4,
+.slogan-2 h4,
+.slogan-3 h4 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: calc(24px/30px);
+  font-style: normal;
+  color: #343950;
+  text-transform: uppercase;
+}
+
+.slogan-1 p,
+.slogan-2 p,
+.slogan-3 p {
+  font-family: 'PT Sans';
+  font-size: 9px;
+  font-weight: 400;
+  line-height: calc(12px/9px);
+  font-style: normal;
+  color: #000001;
+}
+
+.controls label {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: calc(30px/21px);
+  font-style: normal;
+  color: #FFFEDC;
+}
+
+.controls:first-child {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: calc(30px/21px);
+  font-style: normal;
+  color: #343950;
+}
+
+.btn-credit {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: calc(18px/14px);
+  font-style: normal;
+  color: #FFFEDC;
+  text-transform: uppercase;
+}
+
+.preview h3,
+.contacts h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: calc(20px/20px);
+  font-style: normal;
+  color: #040304;
+  text-transform: uppercase;
+}
+
+.preview p,
+.contacts p {
+  font-family: 'PT Sans';
+  font-size: 9px;
+  font-weight: 400;
+  line-height: calc(14px/9px);
+  font-style: normal;
+  color: #000001;
+}
+
+.company li {
+  font-family: 'PT Sans';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: calc(16px/16px);
+  font-style: normal;
+  color: #000001;
+}
+
+.preview a,
+.contacts a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: calc(18px/14px);
+  font-style: normal;
+  color: #FFFEDC;
+  text-transform: uppercase;
+}
+
+.footer-address .logo {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: calc(30px/30px);
+  font-style: normal;
+  color: #FFFEDC;
+  text-transform: uppercase;
+}
+
+.footer-address p,
+.footer-address a {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: calc(24px/18px);
+  font-style: normal;
+  color: #FFFEDC;
+}
+
+.foot-item a {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: calc(24px/18px);
+  font-style: normal;
+  color: #FFFEDC;
+}
+                                       /*=================================*/
+.foot-item a:nth-child(n+6) {
+  color: #FFCC6B;
+}
+
+.footer-bottom p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: calc(18px/16px);
+  font-style: normal;
+  color: #FFFEDC;
+}
+
+.author-item1 span,
+.author-item2 span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: calc(18px/16px);
+  font-style: normal;
+  color: #FFFEDC;
+}
+
+.author-item1 a,
+.author-item2 a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: calc(18px/16px);
+  font-style: normal;
+  color: #FFCC6B;
+}
+
+.your-name label,
+.mail label,
+.letter label {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: calc(18px/18px);
+  font-style: normal;
+  color: #000001;
+}
+
+.your-name input,
+.mail input,
+.letter input {
+  font-family: 'PT Sans';
+  font-size: 13px;
+  font-weight: 400;
+  line-height: calc(18px/13px);
+  font-style: normal;
+  color: #AD9F91;
+}
+
+.submit {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: calc(18px/14px);
+  font-style: normal;
+  color: #FFFEDC;
+}
+
+.user span {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: calc(18px/21px);
+  font-style: normal;
+  color: #000001;
+}
+
+.orders,
+.personal account {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: calc(18px/16px);
+  font-style: normal;
+  color: #343950;
+}
+
+.breadcrumbs a {
+  font-family: 'PT Sans';
+  font-size: 13px;
+  font-weight: 400;
+  line-height: calc(18px/13px);
+  font-style: normal;
+  color: #000001;
+  text-transform: uppercase;
+}
+
+.title h2 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: calc(30px/30px);
+  font-style: normal;
+  color: #343950;
+  text-transform: uppercase;
+}
+
+.filterr h3 {
+  font-family: 'PT Sans';
+  font-size: 13px;
+  font-weight: 400;
+  line-height: calc(18px/13px);
+  font-style: normal;
+  color: #000001;
+  text-transform: uppercase;
+}
+
+.filters h4 {
+  font-family: 'PT Sans';
+  font-size: 17px;
+  font-weight: 700;
+  line-height: calc(30px/17px);
+  font-style: normal;
+  color: #000001;
+  text-transform: uppercase;
+}
+
+#min,
+#max {
+  font-family: 'PT Sans';
+  font-size: 17px;
+  font-weight: 400;
+  line-height: calc(18px/17px);
+  font-style: normal;
+  color: #000001;
+}
+
+.filter h4 {
+  font-family: 'PT Sans';
+  font-size: 17px;
+  font-weight: 700;
+  line-height: calc(30px/17px);
+  font-style: normal;
+  color: #000001;
+  text-transform: uppercase;
+}
+
+.filter-group label {
+  font-family: 'PT Sans';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: calc(20px/15px);
+  font-style: normal;
+  color: #000001;
+  text-transform: uppercase;
+}
+
+.btn-gray,
+.sort h4,
+.sort-control button,
+.page-gray  {
+  font-family: 'PT Sans';
+  font-size: 13px;
+  font-weight: 400;
+  line-height: calc(18px/13px);
+  font-style: normal;
+  color: #000001;
+  text-transform: uppercase;
+}
+
+.desc h5 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: calc(24px/20px);
+  font-style: normal;
+  color: #000001;
+  text-transform: uppercase;
+}
+
+.desc p {
+  font-family: 'PT Sans';
+  font-size: 9px;
+  font-weight: 400;
+  line-height: calc(12px/9px);
+  font-style: normal;
+  color: #000001;
+}
+
+.reservation p {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: calc(18px/30px);
+  font-style: normal;
+  color: #000001;
+}
+
+.btn-acquire {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: calc(18px/14px);
+  font-style: normal;
+  color: #FFFEDC;
+  text-transform: uppercase;
+}
+
+.btn-choice {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: calc(18px/14px);
+  font-style: normal;
+  color: #000001;
+  text-transform: uppercase;
+}

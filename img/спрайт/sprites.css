@@ -1,0 +1,106 @@
+.cart-icon, .fb-icon, .icon-bookmark, .icon-down-dir, .icon-home, .icon-left, .icon-up-dir, .icon-search, .icon-right-small, .icon-right, .icon-phone, .icon-login, .icon-user, .insta-icon, .vk-icon, .form-2, .form-1{
+	background: url(sprites.png) no-repeat;
+}
+
+.cart-icon{
+	background-position: 0 0;
+	width: 15px;
+	height: 15px;
+}
+
+.fb-icon{
+	background-position: -17px 0;
+	width: 12px;
+	height: 22px;
+}
+
+.icon-bookmark{
+	background-position: -30px 0;
+	width: 14px;
+	height: 16px;
+}
+
+.icon-down-dir{
+	background-position: -45px 0;
+	width: 11px;
+	height: 10px;
+}
+
+.icon-home{
+	background-position: -58px 0;
+	width: 14px;
+	height: 12px;
+}
+
+.icon-left{
+	background-position: -74px 0;
+	width: 22px;
+	height: 40px;
+}
+
+.icon-up-dir{
+	background-position: -100px 0;
+	width: 11px;
+	height: 10px;
+}
+
+.icon-search{
+	background-position: -114px 0;
+	width: 17px;
+	height: 17px;
+}
+
+.icon-right-small{
+	background-position: -133px 0;
+	width: 8px;
+	height: 12px;
+}
+
+.icon-right{
+	background-position: -143px 0;
+	width: 22px;
+	height: 40px;
+}
+
+.icon-phone{
+	background-position: -167px -1px ;
+	width: 19px;
+	height: 19px;
+}
+
+.icon-login{
+	background-position: -190px 0;
+	width: 20px;
+	height: 17px;
+}
+
+.icon-user{
+	background-position: -212px 0;
+	width: 20px;
+	height: 18px;
+}
+
+.insta-icon{
+	background-position: -236px 0;
+	width: 21px;
+	height: 21px;
+}
+
+.vk-icon{
+	background-position: -261px 0;
+	width: 26px;
+	height: 15px;
+}
+
+.form-2{
+	background-position: -292px -2px ;
+	width: 21px;
+	height: 21px;
+}
+
+.form-1{
+	background-position: -316px 0;
+	width: 66px;
+	height: 66px;
+}
+
