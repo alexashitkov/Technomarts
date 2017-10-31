@@ -1,4 +1,4 @@
-.cart-icon, .fb-icon, .icon-bookmark, .icon-down-dir, .icon-home, .icon-left, .icon-up-dir, .icon-search, .icon-right-small, .icon-right, .icon-phone, .icon-login, .icon-user, .insta-icon, .vk-icon, .form-2, .form-1{
+.cart-icon, .fb-icon, .icon-bookmark, .icon-down-dir, .icon-home, .icon-left, .icon-up-dir, .icon-search, .icon-right-small, .icon-right, .icon-phone, .icon-login, .icon-user, .insta-icon, .vk-icon, .form-2, .form-1, .icon-1, .icon-2, .icon-3, .icon-4, .icon-5{
 	background: url(sprites.png) no-repeat;
 }
 
@@ -102,5 +102,35 @@
 	background-position: -316px 0;
 	width: 66px;
 	height: 66px;
+}
+
+.icon-1{
+	background-position: -385px 0;
+	width: 44px;
+	height: 65px;
+}
+
+.icon-2{
+	background-position: -434px 0;
+	width: 75px;
+	height: 61px;
+}
+
+.icon-3{
+	background-position: -512px 0;
+	width: 78px;
+	height: 62px;
+}
+
+.icon-4{
+	background-position: -595px 0;
+	width: 59px;
+	height: 72px;
+}
+
+.icon-5{
+	background-position: -658px 0;
+	width: 78px;
+	height: 63px;
 }
 

@@ -8,12 +8,13 @@
   <link rel="stylesheet" href="css\style.css">
 </head>
 <body>
-  <div class="wrapp">
-    <header class="header">
+  <header class="header">
+    <div class="wrapp">
       <div class="top-menu">
-        <h1><a class="logo" href="index.html">Техномарт</a></h1>
+        <a class="logo" href="index.html"><h1>Техномарт</h1></a>
         <form class="form" action="">
           <div class="form-group search">
+            <button class="btn-search"></button>
             <label for="">Поиск:</label>
             <input type="text">
           </div>
@@ -141,7 +142,7 @@
             </div>
             <span>Перфоратор BOSCH BFG 3000</span>
             <span>22500 Р.</span>
-            <button class="btn-red">15500 Р.</button>
+            <span class="price-red">15500 Р.</span>
           </section>
           <section class="product item-3">
             <div class="img" width="224" height="160" alt="Перфоратор BOSCH BFG 6000">                 
@@ -152,7 +153,7 @@
             </div>
             <span>Перфоратор BOSCH BFG 6000</span>
             <span>30500 Р.</span>
-            <button class="btn-red">25500 Р.</button>
+            <span class="price-red">25500 Р.</span>
           </section>
           <section class="product item-4">
             <div class="img" width="216" height="188" alt="Перфоратор BOSCH BFG 2000">                 
@@ -162,7 +163,7 @@
               <button class="btn-white">В закладки</button>
             </div>
             <span>Перфоратор BOSCH BFG 2000</span>                  
-            <button class="btn-red">12500 Р.</button>
+            <span class="price-red">12500 Р.</span>
           </section>
           <section class="product item-2">
             <div class="img" width="217" height="155" alt="Перфоратор BOSCH BFG 3000">                 
@@ -173,7 +174,7 @@
             </div>
             <span>Перфоратор BOSCH BFG 3000</span>
             <span>22500 Р.</span>
-            <button class="btn-red">15500 Р.</button>
+            <span class="price-red">15500 Р.</span>
           </section>
           <section class="product item-3">
             <div class="img" width="224" height="160" alt="Перфоратор BOSCH BFG 6000">                 
@@ -184,7 +185,7 @@
             </div>
             <span>Перфоратор BOSCH BFG 6000</span>
             <span>30500 Р.</span>
-            <button class="btn-red">25500 Р.</button>
+            <span class="price-red">25500 Р.</span>
           </section>
           <section class="product item-4">
             <div class="img" width="216" height="188" alt="Перфоратор BOSCH BFG 2000">                 
@@ -194,7 +195,7 @@
               <button class="btn-white">В закладки</button>
             </div>
             <span>Перфоратор BOSCH BFG 2000</span>                  
-            <button class="btn-red">12500 Р.</button>
+            <span class="price-red">12500 Р.</span>
           </section>
           <section class="product item-2">
             <div class="img" width="217" height="155" alt="Перфоратор BOSCH BFG 3000">                 
@@ -205,7 +206,7 @@
             </div>
             <span>Перфоратор BOSCH BFG 3000</span>
             <span>22500 Р.</span>
-            <button class="btn-red">15500 Р.</button>
+            <span class="price-red">15500 Р.</span>
           </section>
           <section class="product item-3">
             <div class="img" width="224" height="160" alt="Перфоратор BOSCH BFG 6000">                 
@@ -216,7 +217,7 @@
             </div>
             <span>Перфоратор BOSCH BFG 6000</span>
             <span>30500 Р.</span>
-            <button class="btn-red">25500 Р.</button>
+            <span class="price-red">25500 Р.</span>
           </section>
           <section class="product item-4">
             <div class="img" width="216" height="188" alt="Перфоратор BOSCH BFG 2000">                 
@@ -226,7 +227,7 @@
               <button class="btn-white">В закладки</button>
             </div>
             <span>Перфоратор BOSCH BFG 2000</span>                  
-            <button class="btn-red">12500 Р.</button>
+            <span class="price-red">12500 Р.</span>
           </section>  
         </div>
         <div class="pagination">
@@ -244,25 +245,33 @@
       </div>
     </div>
   </div>
-  <div class="box">
-    <footer class="footer">
+  <footer class="footer">
+    <div class="box">
       <div class="footer-top">
         <div class="footer-address">            
-          <h1><a class="logo" href="index.html">Техномарт</a></h1>
+          <a class="logo" href="index.html"><h1>Техномарт</h1></a>
           <p>г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
           <a href="tel:+7 (812) 555-05-55">+7 (812) 555-05-55</a>            
         </div>          
         <nav class="footer-menu">
           <ul class="footer-list">
-            <li class="foot-item"><a href="">Контакты</a></li>
-            <li class="foot-item"><a href="">Доставка</a></li>
-            <li class="foot-item"><a href="catalog.html">Каталог</a></li>
-            <li class="foot-item"><a href="">Новости</a></li>
-            <li class="foot-item"><a href="">Компания</a></li>
-            <li class="foot-item"><a href="">Спецпредложения</a></li>
-            <li class="foot-item"><a href="">Инструмент</a></li>
-            <li class="foot-item"><a href="">Техника</a></li>
-            <li class="foot-item"><a href="">Материалы</a></li>
+            <li class="menu-white">
+              <ul class="foot-items">
+                <li class="foot-item"><a href="">Контакты</a></li>
+                <li class="foot-item"><a href="">Доставка</a></li>
+                <li class="foot-item"><a href="catalog.html">Каталог</a></li>
+                <li class="foot-item"><a href="">Новости</a></li>
+                <li class="foot-item"><a href="">Компания</a></li>
+              </ul>
+            </li>
+            <li class="menu-yellow">
+              <ul class="foot-items">
+                <li class="foot-item"><a href="">Спецпредложения</a></li>
+                <li class="foot-item"><a href="">Инструмент</a></li>
+                <li class="foot-item"><a href="">Техника</a></li>
+                <li class="foot-item"><a href="">Материалы</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
       </div>
@@ -284,8 +293,8 @@
           </div>            
         </div>    
       </div>
-    </footer>
-  </div>
+    </div>
+  </footer>
   <div class="cart">
     <div class="reservation">
       <p>Товар добавлен в корзину!</p>

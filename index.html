@@ -8,28 +8,29 @@
   <link rel="stylesheet" href="css\style.css">
 </head>
 <body>
-    <div class="wrapp">
-      <header class="header">
-        <div class="top-menu">
-          <h1><a class="logo" href="index.html">Техномарт</a></h1>
+    <header class="header">
+      <div class="wrapp">
+        <div class="top-menu clearfix">
+          <a class="logo" href="index.html"><h1>Техномарт</h1></a>
           <form class="form" action="">
             <div class="form-group search">
+              <button class="btn-search"></button>
               <label for="">Поиск:</label>
               <input type="text">
             </div>
             <div class="form-group bookmark">
-              <label for="">Закладки:</label>
+              <label for=""><a href="">Закладки:</a></label>
               <input type="text" placeholder="0">
             </div>
             <div class="form-group  basket">
-              <label for="">Корзина:</label>
+              <label for=""> <a href="">Корзина:</a></label>
               <input type="text" placeholder="0">
             </div>
             <button class="btn">Оформить заказ</button>  
           </form> 
         </div>
-        <div class="menu">
-          <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+        <div class="menu clearfix">
+          <p class="inner">Интернет-магазин строительных материалов и инструментов для ремонта</p>
           <div class="address">
             <a href="tel:+7 (812) 555-05-55">+7 (812) 555-05-55</a>
             <p>г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
@@ -50,36 +51,28 @@
             <li class="item"><a href="">Контакты</a></li>
           </ul>
         </nav>
-      </header>    
-    </div>
+      </div>    
+    </header>
     <div class="main">
       <div class="content">
-        <div class="main-item promo">
-          <section class="promo-item">
-            <div class="images" width="300" height="123" alt="Материалы"></div>
-            <h2>Материалы</h2>
-            <button class="btn-gray">На любой вкус</button>
-          </section>
-          <section class="promo-item">
-            <div class="images" width="300" height="123" alt="Инструмент"></div>
-            <h2>Инструмент</h2>
-            <button class="btn-gray">На все случаи</button>
-          </section>
-          <section class="promo-item">
-            <div class="images" width="300" height="123" alt="Техника"></div>
-            <h2>Техника</h2>
-            <button class="btn-gray">Для стройки</button>
-          </section>
-          <section class="promo-item">
-            <div class="images" width="300" height="123" alt="Скидки 50%"></div>
-            <h2>Скидки 50%</h2>
-            <button class="btn-gray">На 350 товаров</button>
-          </section>
-          <section class="promo-item">
-            <div class="images" width="300" height="123" alt="Доставка"></div>
-            <h2>Доставка</h2>
-            <button class="btn-gray">Бесплатно</button>
-          </section>
+        <div class="main-item promo clearfix">
+          <div class="top-promo clearfix">
+            <section class="promo-item materials clearfix">
+              <div class="images" width="44" height="65" alt="Материалы"></div>
+              <h2>Материалы</h2>
+              <button class="btn-gray">На любой вкус</button>
+            </section>
+            <section class="promo-item instrument">
+              <div class="images" width="75" height="61" alt="Инструмент"></div>
+              <h2>Инструмент</h2>
+              <button class="btn-gray">На все случаи</button>
+            </section>
+            <section class="promo-item technics">
+              <div class="images" width="78" height="62" alt="Техника"></div>
+              <h2>Техника</h2>
+              <button class="btn-gray">Для стройки</button>
+            </section>
+          </div>
           <div class="slider">
             <input type="radio" id="tool-1" name="tooling" checked>
             <input type="radio" id="tool-2" name="tooling">
@@ -95,6 +88,18 @@
             </div>              
             <button class="btn-catalog">Открыть каталог</button>
           </div>
+          <div class="bottom-promo">
+            <section class="promo-item discounts">
+              <div class="images" width="59" height="72" alt="Скидки 50%"></div>
+              <h2>Скидки 50%</h2>
+              <button class="btn-gray">На 350 товаров</button>
+            </section>
+            <section class="promo-item transfer">
+              <div class="images" width="78" height="63" alt="Доставка"></div>
+              <h2>Доставка</h2>
+              <button class="btn-gray">Бесплатно</button>
+            </section>
+          </div>                              
         </div>  
         <div class="main-item popular-products">
           <div class="subtitle">
@@ -103,7 +108,7 @@
           </div>
           <div class="products">
             <section class="product item-1">
-              <div class="img" width="240" height="184" alt="Перфоратор BOSCH BFG 9000">                 
+              <div class="img" width="184" height="164" alt="Перфоратор BOSCH BFG 9000">                 
               </div>
               <div class="hidden-block">
                 <button class="btn-green">Купить</button>
@@ -111,7 +116,7 @@
               </div>
               <span>Перфоратор BOSCH BFG 9000</span>
               <span class="price">32500 Р.</span>
-              <button class="btn-red">25500 Р.</button>
+              <span class="price-red">25500 Р.</span>
             </section>
             <section class="product item-2">
               <div class="img" width="217" height="155" alt="Перфоратор BOSCH BFG 3000">                 
@@ -122,7 +127,7 @@
               </div>
               <span>Перфоратор BOSCH BFG 3000</span>
               <span class="price">22500 Р.</span>
-              <button class="btn-red">15500 Р.</button>
+              <span class="price-red">15500 Р.</span>
             </section>
             <section class="product item-3">
               <div class="img" width="224" height="160" alt="Перфоратор BOSCH BFG 6000">                 
@@ -133,7 +138,7 @@
               </div>
               <span>Перфоратор BOSCH BFG 6000</span>
               <span class="price">30500 Р.</span>
-              <button class="btn-red">25500 Р.</button>
+              <span class="price-red">25500 Р.</span>
             </section>
             <section class="product item-4">
               <div class="img" width="216" height="188" alt="Перфоратор BOSCH BFG 2000">                 
@@ -143,7 +148,7 @@
                 <button class="btn-white">В закладки</button>
               </div>
               <span>Перфоратор BOSCH BFG 2000</span>                  
-              <button class="btn-red">12500 Р.</button>
+              <span class="price-red">12500 Р.</span>
             </section>
           </div>
         </div>
@@ -152,17 +157,17 @@
             <span>Популярные производители:</span>
             <a class="all-brands" href="">Все производители</a>
           </div>
-          <div class="brands">
-            <a class="brand item-1" width="220" height="145" alt=""></a>
-            <a class="brand item-2" width="220" height="145" alt=""></a>                
-            <a class="brand item-3" width="220" height="145" alt=""></a>    
-            <a class="brand item-4" width="220" height="145" alt=""></a>   
-            <a class="brand item-5" width="220" height="145" alt=""></a>  
-            <a class="brand item-6" width="220" height="145" alt=""></a>  
-            <a class="brand item-7" width="220" height="145" alt=""></a>  
-            <a class="brand item-8" width="220" height="145" alt=""></a>                                                                        
-          </div>      
-      </div>
+          <div class="brands">            
+            <div class="company"><a class="brand item-1" width="220" height="145" alt=""></a></div> 
+            <div class="company"><a class="brand item-2" width="220" height="145" alt=""></a></div>
+            <div class="company"><a class="brand item-3" width="220" height="145" alt=""></a></div>
+            <div class="company"><a class="brand item-4" width="220" height="145" alt=""></a></div>
+            <div class="company"><a class="brand item-5" width="220" height="145" alt=""></a></div>
+            <div class="company"><a class="brand item-6" width="220" height="145" alt=""></a></div>
+            <div class="company"><a class="brand item-7" width="220" height="145" alt=""></a></div>
+            <div class="company"><a class="brand item-8" width="220" height="145" alt=""></a></div>
+          </div>
+      </div>                                                                                                   
       <div class="holder">
         <div class="main-item advantages">
           <div class="servise">
@@ -208,7 +213,7 @@
           </div>
         </div>
       </div>
-      <div class="aside">
+      <div class="aside clearfix">
         <div class="preview">
           <h3>Компания &laquo;Техномарт&raquo;</h3>
           <p>Настоящии мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
@@ -229,29 +234,39 @@
         </div>
       </div>      
     </div>
-    <div class="box">
-      <footer class="footer">
-        <div class="footer-top">
+    <footer class="footer">
+      <div class="box-top">
+        <div class="footer-top clearfix">
           <div class="footer-address">            
-            <h1><a class="logo" href="index.html">Техномарт</a></h1>
+            <a class="logo" href="index.html"><h1>Техномарт</h1></a>
             <p>г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
             <a href="tel:+7 (812) 555-05-55">+7 (812) 555-05-55</a>            
           </div>          
           <nav class="footer-menu">
             <ul class="footer-list">
-              <li class="foot-item"><a href="">Контакты</a></li>
-              <li class="foot-item"><a href="">Доставка</a></li>
-              <li class="foot-item"><a href="catalog.html">Каталог</a></li>
-              <li class="foot-item"><a href="">Новости</a></li>
-              <li class="foot-item"><a href="">Компания</a></li>
-              <li class="foot-item"><a href="">Спецпредложения</a></li>
-              <li class="foot-item"><a href="">Инструмент</a></li>
-              <li class="foot-item"><a href="">Техника</a></li>
-              <li class="foot-item"><a href="">Материалы</a></li>
+              <li class="menu-white">
+                <ul class="foot-items">
+                  <li class="foot-item"><a href="">Компания</a></li>
+                  <li class="foot-item"><a href="">Новости</a></li>
+                  <li class="foot-item"><a href="catalog.html">Каталог</a></li>
+                  <li class="foot-item"><a href="">Доставка</a></li>
+                  <li class="foot-item"><a href="">Контакты</a></li>
+                </ul>
+              </li>
+              <li class="menu-yellow">
+                <ul class="foot-items">
+                  <li class="foot-item"><a href="">Материалы</a></li>
+                  <li class="foot-item"><a href="">Техника</a></li>
+                  <li class="foot-item"><a href="">Инструмент</a></li>
+                  <li class="foot-item"><a href="">Спецпредложения</a></li>
+                </ul>
+              </li>
             </ul>
           </nav>
         </div>
-        <div class="footer-bottom">
+      </div>  
+      <div class="box-bottom">
+        <div class="footer-bottom clearfix">
           <p class="copyright">&copy;2010-2017 Компания &laquo;Техномарт&raquo; <br> Все права защищены</p>          
           <div class="footer-social">
             <a href="vk.com" class="social-btn social-btn-vk" src="" height="" width="" alt="Иконка VK"></a>
@@ -269,8 +284,8 @@
             </div>            
           </div>    
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
     <form class="form-hidden"><!--Модальное окно -->     
       <button class="close">x</button>       
       <div class="form-group">                                      
@@ -287,8 +302,7 @@
               <input type="textaria" name="message" required placeholder="В свободной форме">
           </div>
       </div>
-       <button class="btn btn-red submit" type="submit">Отправить</button>
-  </form>  
+      <button class="btn btn-red submit" type="submit">Отправить</button>
+    </form>  
 </body>
-</html>
 </html>

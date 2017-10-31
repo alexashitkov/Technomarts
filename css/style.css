@@ -13,7 +13,7 @@
     display: table;
   }
 
-  .logo {
+  .logo h1 {
     font-size: 24px;
     font-weight: 400;
     line-height: calc(24px/24px);
@@ -98,7 +98,7 @@
   font-weight: 400;
   line-height: calc(30px/30px);
   font-style: normal;
-  color: #FFFEDC;
+  color: #353748;
   text-transform: uppercase;
 }
 
@@ -144,7 +144,7 @@
   font-weight: 400;
   line-height: calc(14px/14px);
   font-style: normal;
-  color: #343950;
+  color: #333950;
   text-transform: uppercase;
 }
 
@@ -276,10 +276,6 @@
   line-height: calc(24px/18px);
   font-style: normal;
   color: #FFFEDC;
-}
-                                       /*=================================*/
-.foot-item a:nth-child(n+6) {
-  color: #FFCC6B;
 }
 
 .footer-bottom p {
@@ -470,7 +466,7 @@
   color: #FFFEDC;
   text-transform: uppercase;
 }
-
+                                      
 .btn-choice {
   font-size: 14px;
   font-weight: 400;
@@ -478,4 +474,517 @@
   font-style: normal;
   color: #000001;
   text-transform: uppercase;
+}
+                                 /*=================================*/
+
+.header {
+  background-color: #FFF4D8;
+}
+
+.wrapp {
+  margin: 0 auto;  
+}
+
+.top-menu {
+  background-color: #2B2D41;
+  height: 42px;  
+}
+
+.top-menu .logo {
+  float: left;
+  background-color: #F1303C; 
+  width: 220px;
+  height: 42px;
+  
+}
+
+.top-menu .logo::after {
+  content:"";
+  position: absolute;
+  top: 41px;
+  left: 0;
+  background-color: #B1252F; 
+  width: 220px;
+  height: 5px;
+}
+
+.top-menu .logo h1 {
+  margin: 8px 55px 20px 55px; 
+}
+
+.top-menu .logo {
+  text-decoration: none; 
+}
+
+.form {
+  float: left;
+  font-size:0;  
+}
+
+.form-group,
+.form .btn {
+  display: inline;
+}
+
+.form-group input {
+  background-color: #2B2D42;
+}
+
+.form .btn {
+  background-color: #699D2E;
+}
+
+.btn-search {
+  background: url(../img/sprite/sprites.png) no-repeat;
+  background-position: -114px 0;
+	width: 17px;
+  height: 17px;
+  outline: none;
+  border-radius: none;  
+}
+
+.menu p,
+.address,
+.sign-in {
+  float: left;
+}
+
+.inner {
+  width: 196px;
+  min-height: 60px;
+  margin: 49px 71px 50px 50px;
+}
+
+.address {
+  position: relative;
+}
+
+.address a {
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  padding: 10px 52px 11px 40px;
+  margin: 49px 69px 0 0;
+}
+
+.address a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url('../img/sprite/sprites.png');
+  background-repeat: no-repeat;
+  background-position: -167px -1px ;
+	width: 19px;
+	height: 19px;
+}
+
+.address p {
+  width: 240px;
+  margin: 10px 69px 50px 0;;
+}
+
+.login,
+.registration {
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+.sign-in {
+  position: relative;
+}
+
+.login::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../img/sprite/sprites.png');
+  background-repeat: no-repeat;
+  background-position: -190px 0;
+	width: 20px;
+	height: 17px;
+}
+
+.nav .list {
+  font-size: 0;
+  background-color: #343950;
+}
+
+.list .item {
+  display: inline;
+}
+
+.content {
+  margin: 0 auto; 
+  width: 940px;
+}
+
+.materials,
+.instrument,
+.technics {
+  float: left;
+  width: 300px;
+  height: 123px;
+  position: relative;
+  background-repeat: no-repeat;
+
+}
+
+.discounts,
+.transfer {
+  width: 300px;
+  height: 123px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.bottom-promo,
+.slider {
+  float: left;
+}
+
+
+.materials .images {
+  background-image: url('../img/sprite/sprites.png');
+  background-position: -385px 0;
+  width: 44px;
+  height: 65px;
+}
+
+.instrument .images {
+  background-image: url('../img/sprite/sprites.png');
+  background-position: -434px 0;
+	width: 75px;
+	height: 61px;
+}
+
+.technics .images {
+  background-image: url('../img/sprite/sprites.png');
+  background-position: -512px 0;
+	width: 78px;
+	height: 62px
+}
+
+.discounts .images {
+  background-image: url('../img/sprite/sprites.png');
+  background-position: -595px 0;
+	width: 59px;
+	height: 72px;
+}
+
+.transfer .images {
+  background-image: url('../img/sprite/sprites.png');
+  background-position: -658px 0;
+	width: 78px;
+	height: 63px;
+}
+
+.promo-item .images {
+  float: right;
+}
+
+.promo-item h2,
+.btn-gray {
+  margin-left: 23px;
+}
+
+.materials {
+  background-color: #FFB738; 
+}
+
+.instrument {
+  background-color: #58B1C7;
+}
+
+.technics {
+  background-color: #E482BC;
+}
+
+.discounts {
+  background-color: #98D179;
+}
+
+.transfer {
+  background-color: #FFB838;
+}
+
+.slide-1 {
+  background-image: url('../img/slider 1.png');
+  width: 620px;
+  height: 266px;
+}
+
+.slide-2 {
+  display: none;
+  background-image: url('../img/slider 2.png');
+  width: 620px;
+  height: 266px;
+}
+
+.btn-catalog {
+  width: 195px;
+  height: 38px;
+  background-color: #F0313D; 
+}
+
+.products {
+  font-size: 0;
+}
+
+.popular-products {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.product {
+  display: inline-block;
+  width: 220px;
+  height: 318px;
+  background-repeat: no-repeat;
+  border: 1px solid gray;
+  margin-right: 20px;
+  position: relative;
+}
+
+.product:last-child {
+  margin-right: 0; 
+}
+
+.hidden-block {
+  display: block;
+  width: 220px;
+  height: 240px;
+}
+
+.btn-green {
+  display: inline-block;
+  background-color: #689D31;
+  width: 135px;
+  height: 38px;
+  margin: 0 auto;
+}
+
+.btn-white {
+  background-color: #FFFDDC;
+  width: 135px;
+  height: 38px;
+  border: 2px solid #689D33;
+}
+
+
+.item-1 .img {
+  background-image: url('../img/snippet-32961 copy 3.png');
+  width: 184px;
+  height: 164px;
+}
+
+.item-2 .img {
+  background-image: url('../img/snippet-18927 copy 3.png');
+  width: 127px;
+  height: 112px;
+}
+
+.item-3 .img {
+  background-image: url('../img/snippet-945 copy 2.png');
+  width: 144px;
+  height: 128px;
+}
+
+.item-4 .img {
+  background-image: url('../img/snippet-18927 copy 3.png');
+  width: 127px;
+  height: 112px;
+}
+
+.product .price {
+  text-decoration: line-through; 
+}
+
+.product .price-red {
+  display: inline-block;
+  width: 100px;
+  height: 38px;
+  background-color: #F2303E; 
+}
+
+.product .price-red::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  width: 38px;
+  height: 38px;
+  background-color: #F2303E;
+  transform: rotate(45deg); 
+}
+
+.subtitle {
+  background-color: #FFF2D0; 
+}
+
+.all-brands,
+.all-products {
+  display: inline-block;
+  width: 253px;
+  height: 38px;
+  background-color: #F12F3C;
+  text-decoration: none;
+}
+
+.brands {
+  font-size: 0;
+}
+
+.company {
+  display: inline-block;
+  width: 220px;
+  height: 145px;
+  border: 1px solid blue;
+}
+
+.brand {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.brand::before {
+  content: "";
+  vertical-align: middle;
+  display: inline-block; 
+}
+
+
+.brands .item-1 {
+  background-image: url('../img/bosch.png');
+}
+
+.brands .item-2 {
+  background-image: url('../img/Makita.png');
+}
+
+.brands .item-3 {
+  background-image: url('../img/DeWALT.png');
+}
+
+.brands .item-4 {
+  background-image: url('../img/Интерскол.png');
+}
+
+.brands .item-5 {
+  background-image: url('../img/Hitachi.png');
+}
+
+.brands .item-6 {
+  background-image: url('../img/LG.png');
+}
+
+.brands .item-7 {
+  background-image: url('../img/AEG.png');
+}
+
+.brands .item-8 {
+  background-image: url('../img/Metabo.png');
+}
+
+.holder {
+  background-color: #FFF5D9;
+}
+
+.picture-1 {
+  background-image: url("../img/Layer 131.png");
+  width: 468px;
+  height: 261px;
+}
+
+.picture-2 {
+  background-image: url("../img/Layer 130.png");
+  width: 389px;
+  height: 283px;
+}
+
+.picture-3 {
+  background-image: url("../img/Layer 119.png");
+  width: 466px;
+  height: 285px;
+}
+
+.preview,
+.contacts {
+  float: left;
+}
+
+.preview a,
+.contacts a {
+  background-color: #F2303D;
+  text-decoration: none;
+}
+                                /* ПОДВАЛ=======================*/
+.box-top {
+  background-color: #343950;  
+}
+
+.footer-address {
+  position: relative;
+}
+
+.footer-address .logo {
+  display: inline-block;
+  width: 220px;
+  height: 63px;
+  background-color: #F2303D;
+  text-decoration: none;
+}
+
+.footer-address .logo::after {
+  content:"";
+  position: absolute;
+  top: 63px;
+  left: 0;
+  background-color: #B1252F; 
+  width: 220px;
+  height: 5px;
+}
+
+.footer-address .logo h1 {
+  margin: 20px 55px 20px 55px;
+}
+
+.footer-address {
+  float: left;
+}
+
+.footer-menu {
+  float: right;
+}
+
+.foot-items {
+  font-size: 0;
+}
+
+.foot-item {
+  display: inline-block;
+}
+
+.foot-item a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.menu-yellow a {
+  color: #FFCF8F;
+}
+
+.box-bottom {
+  background-color: #2B2D42;  
+}
+
+.footer-bottom p,
+.footer-social,
+.author {
+  float: left;
 }
